@@ -7,7 +7,10 @@ export default function ProjectCard(props){
         <>
             <div className="project_card">
 
-                <img src={props.picture} className="project_picture"/>
+                <div className="project_picture">
+                    <img src={props.picture}/>
+                </div>
+                
 
                 <div className="project_info">
                     <div className="project_title">

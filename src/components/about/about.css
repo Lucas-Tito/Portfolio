@@ -5,6 +5,8 @@
     align-items: center;
     margin-top: 500px;
     gap: 100px;
+    background-color: white;
+    padding: 130px 0;
 }
 
 .about_text{

@@ -1,13 +1,49 @@
 .project_card{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    gap: 40px;
+    margin-top: 80px;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    padding: 25px 25px;
+    border-radius: 1.7rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 .project_picture{
-    width: 530px;
+    display: block;
+	width: 530px;
+	height: 310px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+    border-radius: 1.7rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.project_picture img{
+    bottom: -360px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+    margin:0;
+    padding:0;
+	-webkit-transition: top 11s;
+	-moz-transition: top 11s;
+	-ms-transition: top 11s;
+	-o-transition: top 11s;
+	transition: bottom 11s;
+}
+
+.project_picture:hover img{
+    bottom: 0;
+    -webkit-transition: all 11s;
+    -moz-transition: all 11s;
+    -ms-transition: all 11s;
+    -o-transition: all 11s;
+    transition: all 11s;
 }
 
 .project_info{
@@ -54,4 +90,22 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.project_info .project_tech{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.project_info .project_tech div{
+    width: fit-content;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    padding: 1rem 1.3rem;
+    font-size: 17px;
 }
