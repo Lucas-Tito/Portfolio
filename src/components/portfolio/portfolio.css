@@ -1,0 +1,28 @@
+.portfolio_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.portfolio_header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.portfolio_header .section{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#147EFB;
+}
+
+.portfolio_header .title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #2D2E32;
+    font-weight: 600;
+}

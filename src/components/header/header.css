@@ -1,0 +1,52 @@
+header{
+    /* flex treats a layout as one dimensional, it being a row or a colum  */
+    display: flex;
+    /* push the first and last items to the far left and far right
+       while maintaining  the items in between centered */
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    background-color: white;
+    color: black;
+
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li{
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+}
+
+.nav-links li:hover{
+    color: #0088a9;
+}
+
+.button {
+    padding: 9px 25px;
+    background-color: #0088a9;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover{
+    background-color: #0c4958;
+}

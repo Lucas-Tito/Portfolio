@@ -1,0 +1,57 @@
+.project_card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_picture{
+    width: 530px;
+}
+
+.project_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.project_info .project_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #2D2E32;
+}
+
+.project_info .project_title .project_date{
+    font-size: 14px;
+    color: #151313;
+    font-weight: 600;
+}
+
+
+.project_info .project_description{
+    margin-top: 20px;
+    width: 40ch;
+    text-align: center;
+    color: #767676;
+}
+
+.project_info .project_code{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.project_info .project_code div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

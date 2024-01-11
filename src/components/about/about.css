@@ -1,0 +1,42 @@
+.about_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    gap: 100px;
+}
+
+.about_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_text .section{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#147EFB;
+}
+
+.about_text .title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color:#2D2E32;
+    max-width: 24ch;
+    margin-top: 10px;
+}
+
+.about_text .description{
+    max-width: 45ch;
+    color: #767676;
+    margin-top: 15px;
+}
+
+.about_img{
+    width: 410px;
+    border-radius: 16px;
+}
+
