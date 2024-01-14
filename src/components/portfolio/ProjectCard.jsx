@@ -3,12 +3,25 @@ import github_icon from "../../images/github.svg"
 import demo_icon from "../../images/demo_icon.svg"
 
 export default function ProjectCard(props){
+
+    const handlePictureHover = () =>{
+
+        let picture = document.querySelectorAll(".project_card_picture")
+        picture.forEach(picture => {
+            let pixelsToScroll = picture.clientHeight - 310 //310 is the height of the image card
+            console.log(pixelsToScroll);
+            picture.style.transform = `translateY(${-pixelsToScroll}px)`
+        });
+        
+        
+    }
+
     return(
         <>
             <div className="project_card">
 
-                <div className="project_picture">
-                    <img src={props.picture}/>
+                <div className="project_picture" onMouseEnter={handlePictureHover}>
+                    <img src={props.picture} className="project_card_picture"/>
                 </div>
                 
 
