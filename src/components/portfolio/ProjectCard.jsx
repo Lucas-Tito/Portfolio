@@ -4,23 +4,28 @@ import demo_icon from "../../images/demo_icon.svg"
 
 export default function ProjectCard(props){
 
-    const handlePictureHover = () =>{
+    var lastHoveredPicture
+    const handlePictureHover = event =>{
+        //gets the project picture hovered
+        let picture = document.querySelector(`#${event.currentTarget.id} img`)
+        lastHoveredPicture = picture
 
-        let picture = document.querySelectorAll(".project_card_picture")
-        picture.forEach(picture => {
-            let pixelsToScroll = picture.clientHeight - 310 //310 is the height of the image card
-            console.log(pixelsToScroll);
-            picture.style.transform = `translateY(${-pixelsToScroll}px)`
-        });
-        
-        
+        //gets the amount of pixels to scroll until the bottom
+        let pixelsToScroll = picture.clientHeight - 310 //310 is the height of the image card
+            
+        //scrolls the image to the bottom
+        picture.style.transform = `translateY(${-pixelsToScroll}px)`
+    }
+
+    const handlePictureLeave = event =>{
+        lastHoveredPicture.style.transform = `translateY(0%)`
     }
 
     return(
         <>
             <div className="project_card">
 
-                <div className="project_picture" onMouseEnter={handlePictureHover}>
+                <div className="project_picture" onMouseEnter={handlePictureHover} onMouseLeave={handlePictureLeave} id={props.id}>
                     <img src={props.picture} className="project_card_picture"/>
                 </div>
                 

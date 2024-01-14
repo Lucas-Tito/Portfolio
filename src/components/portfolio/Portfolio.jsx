@@ -3,9 +3,13 @@ import ProjectCard from "./ProjectCard"
 import "./portfolio.css"
 
 export default function Portfolio(){
+    let id = 0
     let projectCards = projectData.map(function(project){
+        id++
         return(
             <ProjectCard
+                key={id}
+                id={"project_picture"+id}
                 name={project.name}
                 date={project.date}
                 picture={project.picture}
