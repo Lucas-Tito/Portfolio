@@ -14,7 +14,7 @@ header{
     box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
 
     position: fixed;
-    
+
     /* prevents absolute imgs on top of the header */
     z-index: 99;    
     width: 100%;
@@ -57,3 +57,45 @@ header{
 .button:hover{
     background-color: #0c4958;
 }
+
+.menu-icon {
+    display: none;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  #menu-toggle:checked ~ .nav-links {
+    transform: scale(1, 1);
+}
+
+
+@media only screen and (max-width: 950px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: start;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+      transform: scale(1, 0);
+      transform-origin: top;
+      transition: transform 0.3s ease-in-out;   
+    }
+  
+    .nav-links a {
+      margin-left: 12px;
+    }
+  
+    .nav-links li {
+      margin-bottom: 10px;
+    }
+  
+    .menu-icon {
+      display: block;
+      font-size: 28px;
+      cursor: pointer;
+    }
+  }

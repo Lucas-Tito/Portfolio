@@ -13,6 +13,8 @@ export default function Header(){
         
         {/* nav is a section that contains links to others pages */}
         <nav>
+            <input type="checkbox" id="menu-toggle"/>
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul className="nav-links">
                 <li onClick={()=>window.location.href = "#home"}>Home</li>
                 <li onClick={()=>window.location.href = "#about"}>About</li>
