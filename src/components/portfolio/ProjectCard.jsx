@@ -49,7 +49,7 @@ export default function ProjectCard(props){
                     </div>
                     
                     <div className="project_code">
-                        <div>
+                        <div onClick={()=>window.location.href = (props.github_link)}>
                             <span>Code</span>
                             <img src={github_icon}/>
                         </div>
@@ -57,7 +57,7 @@ export default function ProjectCard(props){
                             {props.demo_link.length===0 //checks if there is a demo
                                 ?<div></div>
 
-                                :   <div>
+                                :   <div onClick={()=>window.location.href = (props.demo_link)}>
                                         <span>Live Demo</span>
                                         <img src={demo_icon}/>
                                     </div> 

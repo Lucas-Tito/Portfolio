@@ -12,18 +12,6 @@ import java_icon from "../../images/./tech/java.svg"
 
 export default function Home(){
 
-    function githubLink_Click(){
-        window.location.href = ("https://github.com/Lucas-Tito")
-    }
-    
-    function linkedinLink_Click(){
-        window.location.href = ("https://www.linkedin.com/in/lucas-tito-530997211/")
-    }
-    
-    function youtubeLink_Click(){
-        window.location.href = ("https://www.youtube.com/@lucastitosampaio")
-    }
-
     return(
         <>
             <div className="main" id="home">
@@ -34,11 +22,11 @@ export default function Home(){
                     </span>
 
                     <div className="links">
-                        <img src={linkedin_icon} onClick={linkedinLink_Click}/>
+                        <img src={linkedin_icon} onClick={()=>window.location.href = ("https://www.linkedin.com/in/lucas-tito-530997211/")}/>
 
-                        <img src={github_icon} onClick={githubLink_Click}/>
+                        <img src={github_icon} onClick={()=>window.location.href = ("https://github.com/Lucas-Tito")}/>
 
-                        <img src={youtube_icon} onClick={youtubeLink_Click}/>
+                        <img src={youtube_icon} onClick={()=>window.location.href = ("https://www.youtube.com/@lucastitosampaio")}/>
                     </div>
 
                     <div className="tech">
