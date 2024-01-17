@@ -1,5 +1,6 @@
 import "./header.css"
 
+
 export default function Header(){
 
     return (
@@ -13,10 +14,10 @@ export default function Header(){
         {/* nav is a section that contains links to others pages */}
         <nav>
             <ul className="nav-links">
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li onClick={()=>window.location.href = "#home"}>Home</li>
+                <li onClick={()=>window.location.href = "#about"}>About</li>
+                <li onClick={()=>window.location.href = "#portfolio"}>Projects</li>
+                <li onClick={()=>window.location.href = "#contact"}>Contact</li>
             </ul>
         </nav>
        

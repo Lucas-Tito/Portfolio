@@ -4,7 +4,7 @@ import mail_icon from "../../images/mail_icon.svg"
 export default function Contact(){
     return(
         <>
-            <div className="contact_main">
+            <div className="contact_main" id="contact">
                 <span className="section">Contact</span>
 
                 <span className="title">

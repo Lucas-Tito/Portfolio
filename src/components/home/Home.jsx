@@ -26,7 +26,7 @@ export default function Home(){
 
     return(
         <>
-            <div className="main">
+            <div className="main" id="home">
                 <div className="text">
                     <span className="primary">Junior Developer 👋🏻</span>
                     <span className="secondary">

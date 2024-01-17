@@ -4,6 +4,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
+    scrollbar-color: #8e8e8e #fff;
+    scrollbar-width: thin;
 }
 
 #root{

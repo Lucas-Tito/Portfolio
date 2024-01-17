@@ -23,7 +23,7 @@ export default function Portfolio(){
 
     return(
         <>
-            <div className="portfolio_main">
+            <div className="portfolio_main" id="portfolio">
                 <div className="portfolio_header">
                     <span className="section">Portfolio</span>
                     <span className="title">

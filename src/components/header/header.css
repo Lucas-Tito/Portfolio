@@ -8,10 +8,16 @@ header{
     padding: 30px 5%;
     background-color: white;
     color: black;
-
+    
     -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
     -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
     box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+
+    position: fixed;
+    
+    /* prevents absolute imgs on top of the header */
+    z-index: 99;    
+    width: 100%;
 }
 
 .logo{
@@ -22,6 +28,7 @@ header{
 
 .nav-links{
     list-style: none;
+    cursor: pointer;
 }
 
 .nav-links li{
