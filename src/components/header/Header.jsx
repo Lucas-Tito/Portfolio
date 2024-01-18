@@ -5,12 +5,14 @@ import menu_icon from "../../images/mobile_menu_icon.svg"
 
 export default function Header(){
 
-    let mobile_menu = document.querySelector(".mobile_menu")
+    
     const openMobileMenu = ()=>{
+        let mobile_menu = document.querySelector(".mobile_menu")
         mobile_menu.classList.toggle("active")
     }
 
     const closeMobileMenu = ()=>{
+        let mobile_menu = document.querySelector(".mobile_menu")
         mobile_menu.classList.remove("active")
     }
 
