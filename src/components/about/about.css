@@ -42,3 +42,34 @@
     border-radius: 16px;
 }
 
+
+
+@media (max-width:1050px) {
+    .about_main{
+        flex-direction: column;
+        margin-top: 420px;
+        gap: 50px;
+        padding: 70px 0;
+    }
+
+    .about_img{
+        width: 370px;
+    }
+
+    .about_text .description{
+        max-width: 42ch;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .about_text .title{
+        font-size: 22px;
+        margin-top: 8px;
+        text-align: center;
+    }
+
+    .about_text .section{
+        font-size: 16px;
+        text-align: center;
+    }
+}

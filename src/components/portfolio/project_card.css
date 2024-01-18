@@ -105,3 +105,20 @@
     padding: 1rem 1.3rem;
     font-size: 14px;
 }
+
+@media (max-width:1050px) {
+    .project_card{
+        flex-direction: column;
+    }
+
+    .project_picture{
+        display: block;
+        width: 430px;
+        height: 310px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+        border-radius: 1.7rem;
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+    }
+}

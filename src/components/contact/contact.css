@@ -65,3 +65,9 @@
 .contact_main .contact_card .contact_picture img{
     width: 30px;
 }
+
+@media (max-width:1050px) {
+    .contact_main{
+        align-items: center;
+    }
+}

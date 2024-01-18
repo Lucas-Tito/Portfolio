@@ -12,7 +12,7 @@ export default [
         name:"Balance Manager",
         date:"November 29, 2023",
         picture:"https://github.com/Lucas-Tito/Restaurant-LandingPage-ReactJs/assets/61806906/b0c9d827-7166-4611-8343-a2f4f67785aa",
-        description:"Software that manages personal expenses and income.",
+        description:"Well documented software that manages personal expenses and income.",
         tech:["Electron", "ReactJs", "NodeJs"],
         github_link:"https://github.com/Lucas-Tito/Balance_Manager_Desktop",
         demo_link:""

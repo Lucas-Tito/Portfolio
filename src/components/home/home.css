@@ -84,3 +84,44 @@
     height: 50px;
     gap: 20px;
 }
+
+@media (max-width:1050px) {
+    .main{
+        margin-top: 150px;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .lucas {
+        height: 250px;
+    }
+
+    .text .primary{
+        font-size: 45px;
+    }
+
+    .text .secondary{
+        font-family: 'Mulish', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        max-width: 46ch;
+    }
+
+    .tech{
+        margin-top: 50px;
+        font-size: 15px;
+        gap: 25px;
+        justify-content: center;
+    }
+    
+    .tech .imgs img{
+        height: 40px;
+    }
+    
+    .tech .imgs{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        gap: 20px;
+    }
+}
