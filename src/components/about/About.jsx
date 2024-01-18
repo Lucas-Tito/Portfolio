@@ -1,6 +1,5 @@
 import "./about.css"
 import about_img from "../../images/about.jpg"
-import { Route } from "react-router-dom"
 
 export default function About(){
     return(
