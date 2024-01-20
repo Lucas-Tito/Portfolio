@@ -101,6 +101,10 @@
         height: 250px;
     }
 
+    .text{
+        align-items: center;
+    }
+    
     .text .primary{
         display: flex;
         align-self: center;
@@ -112,7 +116,7 @@
 
     .text .secondary{
         font-size: 15px;
-        max-width: 46ch;
+        width: 90vw;
         margin-top: 30px;
         text-align: center;
     }

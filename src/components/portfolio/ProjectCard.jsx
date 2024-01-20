@@ -4,6 +4,21 @@ import demo_icon from "../../images/demo_icon.svg"
 
 export default function ProjectCard(props){
 
+    //ditched this code, it was causing more then solving problems
+    // /**
+    // * if the project image doesn't have enought height, 
+    // * then adjust the "project_picture" div to the image height
+    // */
+    // const handlePictureResize = event =>{
+    //     let picture = document.querySelector(`#${event.currentTarget.id} img`)
+    //     let pixelsToScroll = picture.clientHeight - 310
+    //     if(pixelsToScroll<0){    
+    //         let pictureDiv = document.querySelector(`#${event.currentTarget.id}`)
+    //         pictureDiv.style.height = `${picture.clientHeight}px`;
+    //         pictureDiv.style.maxWidth = `${picture.clientHeight*(16/9)}px`;
+    //     }
+    // }
+
     var lastHoveredPicture
     const handlePictureHover = event =>{
         //gets the project picture hovered
@@ -13,16 +28,7 @@ export default function ProjectCard(props){
         //gets the amount of pixels to scroll until the bottom
         let pixelsToScroll = picture.clientHeight - 310 //310 is the height of the image card
         
-        /**
-         * if the project image doesn't have enought height, 
-         * then adjust the "project_picture" div to the image height
-         */
-        if(pixelsToScroll<0){
-            let pictureDiv = document.querySelector(`#${event.currentTarget.id}`)
-            pictureDiv.style.height = `${picture.clientHeight}px`;
-            pictureDiv.style.maxWidth = `${picture.clientHeight*(16/9)}px`;
-        }
-        else{
+        if(pixelsToScroll>0){
             //scrolls the image to the bottom
             picture.style.transform = `translateY(${-pixelsToScroll}px)`
         }
@@ -36,7 +42,8 @@ export default function ProjectCard(props){
         <>
             <div className="project_card">
 
-                <div className="project_picture" onMouseEnter={handlePictureHover} onMouseLeave={handlePictureLeave} id={props.id}>
+                <div className="project_picture" onMouseEnter={handlePictureHover} 
+                onMouseLeave={handlePictureLeave} id={props.id}>
                     <img src={props.picture} className="project_card_picture"/>
                 </div>
                 

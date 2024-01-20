@@ -90,6 +90,8 @@ header{
 .mobile_menu .menu_links{
   display: flex;
   flex-direction: column;
+  width: fit-content;
+  padding: 0;
   gap: 4rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
