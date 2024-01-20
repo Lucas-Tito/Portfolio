@@ -1,0 +1,13 @@
+.articles_main{
+    display: flex;
+    flex-direction: column;
+}
+
+.articles_main .title{
+}
+
+.articles_main .description{
+}
+
+.articles_main .btn{
+}

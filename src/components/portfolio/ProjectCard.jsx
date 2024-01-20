@@ -12,9 +12,20 @@ export default function ProjectCard(props){
 
         //gets the amount of pixels to scroll until the bottom
         let pixelsToScroll = picture.clientHeight - 310 //310 is the height of the image card
-            
-        //scrolls the image to the bottom
-        picture.style.transform = `translateY(${-pixelsToScroll}px)`
+        
+        /**
+         * if the project image doesn't have enought height, 
+         * then adjust the "project_picture" div to the image height
+         */
+        if(pixelsToScroll<0){
+            let pictureDiv = document.querySelector(`#${event.currentTarget.id}`)
+            pictureDiv.style.height = `${picture.clientHeight}px`;
+            pictureDiv.style.maxWidth = `${picture.clientHeight*(16/9)}px`;
+        }
+        else{
+            //scrolls the image to the bottom
+            picture.style.transform = `translateY(${-pixelsToScroll}px)`
+        }
     }
 
     const handlePictureLeave = event =>{

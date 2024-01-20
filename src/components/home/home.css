@@ -85,11 +85,16 @@
     gap: 20px;
 }
 
+.tech .title{
+    border-right: 2px solid rgba(45,46,50,.5);
+    padding-right: 1rem;
+}
+
 @media (max-width:1050px) {
     .main{
         margin-top: 150px;
         flex-direction: column-reverse;
-        gap: 50px;
+        gap: 35px;
     }
 
     .lucas {
@@ -97,21 +102,35 @@
     }
 
     .text .primary{
-        font-size: 45px;
+        display: flex;
+        align-self: center;
+        font-size: 40px;
+        max-width: 12ch;
+        text-align: center;
+        line-height: 1.2em;
     }
 
     .text .secondary{
-        font-family: 'Mulish', sans-serif;
         font-size: 15px;
-        font-weight: 400;
         max-width: 46ch;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .text .links{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        margin-top: 35px;
     }
 
     .tech{
+        flex-direction: column;
         margin-top: 50px;
         font-size: 15px;
         gap: 25px;
         justify-content: center;
+        align-items: center;
     }
     
     .tech .imgs img{
@@ -123,5 +142,12 @@
         flex-direction: row;
         height: 50px;
         gap: 20px;
+    }
+
+    .tech .title{
+        border-right: none;
+        padding-right: 0;
+        border-bottom: 2px solid rgba(45,46,50,.5);
+        padding-bottom: 0.5rem;
     }
 }

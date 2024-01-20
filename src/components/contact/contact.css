@@ -63,11 +63,36 @@
 }
 
 .contact_main .contact_card .contact_picture img{
-    width: 30px;
+    max-width: 30px;
 }
 
 @media (max-width:1050px) {
     .contact_main{
         align-items: center;
+        padding: 4rem 0;
+    }
+
+    .contact_main .title{
+        font-size: min(6vw, 25px);
+    }
+
+    .contact_main .section{
+        font-size: min(4vw, 17px);
+    }
+
+    .contact_main .contact_card .contact_picture img{
+        max-width: 20px;
+    }
+
+    .contact_main .contact_card .contact_picture{
+        padding: 13px 13px;
+    }
+
+    .contact_main .contact_card .contact_info .contact_title{
+        font-size: min(5.3vw, 17px);
+    }
+
+    .contact_main .contact_card .contact_info span{
+        font-size: min(4.2vw, 17px);
     }
 }

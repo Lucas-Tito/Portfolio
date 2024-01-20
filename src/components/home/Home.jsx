@@ -30,7 +30,7 @@ export default function Home(){
                     </div>
 
                     <div className="tech">
-                        <span>Tech Stack |</span>
+                        <span className="title">Tech Stack</span>
                         <div className="imgs">
                             <div className="tech_group">
                                 <img src={html_icon} />
