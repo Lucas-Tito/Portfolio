@@ -9,9 +9,9 @@
 </h3>
 <br>
 -->
-
+<br><br>
 <p align="center">
-  <img src="https://github.com/Lucas-Tito/Portfolio/assets/61806906/5705f855-3a10-4c63-b0f8-1dbe1458aec8" alt="screenshot 1" width="35%" height="70%" border-radius:"10px"/>
+  <img src="https://github.com/Lucas-Tito/Portfolio/assets/61806906/5705f855-3a10-4c63-b0f8-1dbe1458aec8" alt="screenshot 1" width="60%" border-radius:"10px"/>
 </p>
 <!-- ![Restaurante Landing Page](https://github.com/Lucas-Tito/Restaurant-LandingPage-ReactJs/assets/61806906/05d45c5c-6edd-4ec7-a010-c80c8cb236e1) -->
 
