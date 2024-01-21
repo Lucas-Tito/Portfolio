@@ -26,5 +26,13 @@ body{
     font-family: 'Mulish', sans-serif;
 }
 
+/*
+*   Anchor links don't count the height of fixed headers,
+*   so the following css code compensate this 
+*/
+html {
+    scroll-padding-top: 220px; /* height of sticky header */
+}
+
 
 

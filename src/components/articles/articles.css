@@ -2,12 +2,20 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin-top: 220px;
+    margin-top: 350px;
+    padding: 15px 15px;
+    align-self: center;
+    border-radius: 12px;
+    max-width: fit-content;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+
+    gap: 40px;
 }
 
 .articles_main .text{
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .articles_main .text .title{
@@ -15,10 +23,12 @@
     font-weight: 600;
     font-size: 26px;
     max-width: 10ch;
+    color: #2D2E32;
 }
 
 .articles_main .text .description{
     max-width: 25ch;
+    color: #767676;
 }
 
 .articles_main .btn{
@@ -28,6 +38,7 @@
     justify-content: center;
     max-width: fit-content;
     z-index: 1;
+    font-size: 13px;
     font-family: 'Mulish', sans-serif;
     font-weight: 600;
     color:#2D2E32;
@@ -38,6 +49,7 @@
     transition: color 0.3s ease-in;
     position: relative;
     padding: 1.25em 3em;
+    gap: 20px;
 }
 
 .articles_main .btn:hover{
