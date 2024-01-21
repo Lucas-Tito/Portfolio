@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ec1aa91d.css",
-    "main.js": "/Portfolio/static/js/main.dcfe9fc3.js",
+    "main.css": "/Portfolio/static/css/main.43698f61.css",
+    "main.js": "/Portfolio/static/js/main.b5206923.js",
     "static/media/about.jpg": "/Portfolio/static/media/about.220c6530d88cb5fd82f3.jpg",
     "static/media/foto_profissional.jpg": "/Portfolio/static/media/foto_profissional.2d60c09b31444513188f.jpg",
     "static/media/react.svg": "/Portfolio/static/media/react.eceb029dbc928d8145da936f98f5b450.svg",
@@ -9,6 +9,7 @@
     "static/media/node.svg": "/Portfolio/static/media/node.b2403318d6671069d559c2bd065bee14.svg",
     "static/media/youtube.svg": "/Portfolio/static/media/youtube.644b7c3a2d49f804911faf3d6017db14.svg",
     "static/media/mail_icon.svg": "/Portfolio/static/media/mail_icon.4c030596e4db29329691560fbedd53cd.svg",
+    "static/media/arrow.svg": "/Portfolio/static/media/arrow.fe0d738d7bd34ffe1b326b77569fe010.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/js.svg": "/Portfolio/static/media/js.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
     "static/media/css.svg": "/Portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
@@ -18,11 +19,11 @@
     "static/media/demo_icon.svg": "/Portfolio/static/media/demo_icon.b15484e33604c61b031decffcbf4d9f9.svg",
     "static/media/mobile_menu_icon.svg": "/Portfolio/static/media/mobile_menu_icon.a88db88a0655c42728e5390ce2cdc6d8.svg",
     "static/media/close_icon.svg": "/Portfolio/static/media/close_icon.9cc47589dad2b5991c1ec06bdd76f4f4.svg",
-    "main.ec1aa91d.css.map": "/Portfolio/static/css/main.ec1aa91d.css.map",
-    "main.dcfe9fc3.js.map": "/Portfolio/static/js/main.dcfe9fc3.js.map"
+    "main.43698f61.css.map": "/Portfolio/static/css/main.43698f61.css.map",
+    "main.b5206923.js.map": "/Portfolio/static/js/main.b5206923.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec1aa91d.css",
-    "static/js/main.dcfe9fc3.js"
+    "static/css/main.43698f61.css",
+    "static/js/main.b5206923.js"
   ]
 }
