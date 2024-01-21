@@ -83,3 +83,25 @@
 .articles_main .btn img{
     max-width: 52px;
 }
+
+@media (max-width:1050px) {
+
+    .articles_main{
+        gap: 32px;
+    }
+
+    .articles_main .text{
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .articles_main .text .title{
+        text-align: center;
+    }
+    
+    .articles_main .text .description{
+        text-align: center;
+        width: 20ch;
+    }
+
+}
