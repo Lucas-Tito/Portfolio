@@ -27,7 +27,7 @@
     align-items: center;
     justify-content: center;
     max-width: fit-content;
-
+    z-index: 1;
     font-family: 'Mulish', sans-serif;
     font-weight: 600;
     color:#2D2E32;
@@ -46,6 +46,7 @@
 
 .articles_main .btn:hover svg path{
     stroke: white;
+    transition: 0.3s ease-in;
 }
 
 .articles_main .btn::before{
