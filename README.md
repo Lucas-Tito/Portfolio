@@ -28,11 +28,12 @@
 </h2>
 
 <p align="center">
-  This is a responsive portfolio that programmatically loads it's project data from an array
+  This is a responsive portfolio that programmatically loads it's project data from an array.
 </p>
 
 <br><br>
 ### Highlights 🔍
 
-+ Function that handles the hover animation for project pictures (picture heights aren't standardized, so this functions adapts the hover animation)
-+ All the project details and pictures are loaded from an array, so it's easier to add new project as time passes
++ Function that handles the hover animation for project pictures (picture heights aren't standardized, so this functions adapts the hover animation).
++ All the project details and pictures are loaded from an array, so it's easier to add new project as time passes.
++ Multi Language support using react-i18next package.
